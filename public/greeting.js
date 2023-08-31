@@ -37,6 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
       'spandu': 'spandu.jpg',
       'spandana': 'spandu.jpg',
       'spandhana': 'spandu.jpg',
+      'shaillu': 'shaillu.jpg',
+      'shailu': 'shaillu.jpg',
+      'paki': 'shaillu.jpg',
+      'paki pankajam': 'shaillu.jpg',
+      'pankajam': 'shaillu.jpg',
+      'saillu': 'shaillu.jpg',
+      'sailu': 'shaillu.jpg',
+      'sailaja': 'shaillu.jpg',
       'mony': 'mounika.jpg',
       'mouny': 'mounika.jpg',
       'mounika': 'mounika.jpg',
@@ -221,7 +229,26 @@ function getGreetingMessage(name) {
     case 'SAI SNIGDHA':
     case 'doctor':
     case 'Doctor':
-      return "Arey, Lucky to have you in my life! May our bond grow stronger with each passing day. you'll always have a special place in my heart yaar. Happy Raksha Sai 🎉👫🥰";
+      return "Arey, Lucky to have you in my life! May our bond grow stronger with each passing day. you'll always have a special place in my heart yaar. Happy Raksha Bandhan Sai 🎉👫🥰";
+    //  Pankajam
+    case 'shaillu':    
+    case 'Shaillu':    
+    case 'shailu':    
+    case 'Shailu':    
+    case 'paki':    
+    case 'Paki':    
+    case 'paki pankajam':    
+    case 'Paki pankajam':    
+    case 'Paki Pankajam':    
+    case 'pankajam':    
+    case 'Pankajam':    
+    case 'sailu':    
+    case 'Sailu':    
+    case 'saillu':    
+    case 'Saillu':    
+    case 'sailaja':    
+    case 'Sailaja':
+      return "Arey Saillu, Wishing your life filled with love, laughter, and cherished moments. May our bond remain as colorful and vibrant as the rakhi itself. Happy Raksha Bandhan Pankajam 😜🥰"    
     // Sweety
     case 'Sweety':
     case 'SWEETY':
