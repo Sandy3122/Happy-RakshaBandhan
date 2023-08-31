@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       'shailu': 'shaillu.jpg',
       'paki': 'shaillu.jpg',
       'paki pankajam': 'shaillu.jpg',
+      'pakipankajam': 'shaillu.jpg',
       'pankajam': 'shaillu.jpg',
       'saillu': 'shaillu.jpg',
       'sailu': 'shaillu.jpg',
