@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
       'meow': 'sisters/sona.jpg',
       'sona amma': 'sisters/sona.jpg',
       'amma': 'sisters/sona.jpg',
+      'sonaamma': 'sisters/sona.jpg',
       'taruni': 'sisters/sona.jpg',
       'tharuni': 'sisters/sona.jpg',
       'mata taruni': 'sisters/sona.jpg',
       'matataruni': 'sisters/sona.jpg',
       'lakshmi': 'sisters/sona.jpg',
       'laxmi': 'sisters/sona.jpg',
-      'sonaamma': 'sisters/sona.jpg',
       'chelli': 'sisters/chelli.jpg',
       'geethu': 'sisters/chelli.jpg',
       'geethika': 'sisters/chelli.jpg',
@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
       'mouny': 'sisters/mounika.jpg',
       'mounika': 'sisters/mounika.jpg',
       'mounika devi': 'sisters/mounika.jpg',
-      'hema': 'sisters/mounika.jpg',
       'satya': 'sisters/mounika.jpg',
       'rayudu mounika': 'sisters/mounika.jpg',
       'sweety': 'sisters/sweety.jpg',
@@ -145,8 +144,6 @@ function getGreetingMessage(name) {
     case 'mata Taruni':
     case 'Mata Taruni':
     case 'taruni':
-    case 'tharuni':
-    case 'Tharuni':
     case 'Lakshmi':
     case 'lakshmi':
     case 'laxmi':
@@ -203,8 +200,6 @@ function getGreetingMessage(name) {
     case 'Mouny':
     case 'mounika devi':
     case 'Mounika Devi':
-    case 'hema':
-    case 'Hema':
     case 'satya':
     case 'Satya':
     case 'rayudu mounika':
