@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const greetingText = document.getElementById("greetingText");
       greetingText.style.color = '#fff';
       greetingText.style.fontFamily = "'Dancing Script', cursive"; // Wrap font name in quotes
-      greetingText.style.fontSize = '2.5rem';
+      greetingText.style.fontSize = '2.2rem';
       greetingText.textContent = greetingMessage;
 
       // Preload images
@@ -123,6 +123,17 @@ function getGreetingMessage(name) {
     case 'Sonaamma':
     case 'amma':
     case 'Amma':
+    case 'Taruni':
+    case 'TARUNI':
+    case 'Mata Taruni':
+    case 'mata taruni':
+    case 'mata Taruni':
+    case 'Mata Taruni':
+    case 'taruni':
+    case 'Lakshmi':
+    case 'lakshmi':
+    case 'laxmi':
+    case 'Laxmi':
       return "You are not just my sister, but also my best friend, my love, my supporter and many more who fills my life with joy and laughter. Love You Sona, Happy Rakhi Sona!";
     // Chelli
     case 'chelli':
@@ -203,13 +214,14 @@ function getGreetingMessage(name) {
     // Sai Snigdha
     case 'Sai':
     case 'SAI':
+    case 'sai':
     case 'Snigdha':
     case 'SNIGDHA':
     case 'Sai Snigdha':
     case 'SAI SNIGDHA':
     case 'doctor':
     case 'Doctor':
-      return "You bring joy to my life!";
+      return "Arey, Lucky to have you in my life! May our bond grow stronger with each passing day. you'll always have a special place in my heart yaar. Happy Raksha Sai 🎉👫🥰";
     // Sweety
     case 'Sweety':
     case 'SWEETY':
