@@ -70,6 +70,4 @@ This is a web application that generates personalized Raksha Bandhan greetings b
 4. Node.js 
 5. Express.js
 
-
-## Contributing
-Contributions are welcome! Here's how you can contribute to this project:
+## **** Thank You For Visiting ****
