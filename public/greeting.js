@@ -12,12 +12,18 @@ document.addEventListener("DOMContentLoaded", function () {
       'meow': 'sisters/sona.jpg',
       'sona amma': 'sisters/sona.jpg',
       'amma': 'sisters/sona.jpg',
+      'taruni': 'sisters/sona.jpg',
+      'tharuni': 'sisters/sona.jpg',
+      'mata taruni': 'sisters/sona.jpg',
+      'matataruni': 'sisters/sona.jpg',
+      'lakshmi': 'sisters/sona.jpg',
+      'laxmi': 'sisters/sona.jpg',
       'sonaamma': 'sisters/sona.jpg',
-      'chelli': 'sisters/chelli.jpg',
-      'geethu': 'sisters/chelli.jpg',
-      'geethika': 'sisters/chelli.jpg',
-      'madhuri': 'sisters/chelli.jpg',
-      'geethika lakshmi sai madhuri': 'sisters/chelli.jpg',
+      'chelli': 'https://iili.io/HyQ69Y7.md.jpg',
+      'geethu': 'https://iili.io/HyQ69Y7.md.jpg',
+      'geethika': 'https://iili.io/HyQ69Y7.md.jpg',
+      'madhuri': 'https://iili.io/HyQ69Y7.md.jpg',
+      'geethika lakshmi sai madhuri': 'https://iili.io/HyQ69Y7.md.jpg',
       'sai': 'sisters/sai.jpg',
       'Snigdha': 'sisters/sai.jpg',
       'Sai Snigdha': 'sisters/sai.jpg',
@@ -67,9 +73,9 @@ document.addEventListener("DOMContentLoaded", function () {
       'nithya sri kiran': 'sisters/jemi.jpg',
       'sri kiran': 'sisters/jemi.jpg',
       'sri': 'sisters/jemi.jpg',
-      'geetha': 'sisters/geetha.jpg',
-      'sai tejaswini': 'sisters/geetha.jpg',
-      'tejaswini': 'sisters/geetha.jpg',
+      'geetha': 'https://iili.io/HyQ4bEl.md.jpg" alt="HyQ4bEl.md.jpg',
+      'sai tejaswini': 'https://iili.io/HyQ4bEl.md.jpg" alt="HyQ4bEl.md.jpg',
+      'tejaswini': 'https://iili.io/HyQ4bEl.md.jpg" alt="HyQ4bEl.md.jpg',
       'nissi': 'sisters/nissi.jpg',
       'haveela': 'sisters/nissi.jpg',
       'pogaru': 'sisters/nissi.jpg',
@@ -138,6 +144,8 @@ function getGreetingMessage(name) {
     case 'mata Taruni':
     case 'Mata Taruni':
     case 'taruni':
+    case 'tharuni':
+    case 'Tharuni':
     case 'Lakshmi':
     case 'lakshmi':
     case 'laxmi':
