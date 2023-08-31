@@ -1,0 +1,92 @@
+/*
+Google Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Caveat&family=Dancing+Script&display=swap');
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-image {
+    max-width: 90%; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+    /* width: 50%; */
+    border-radius:50%;
+}
+
+#customText{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.cursive-text, h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
+    color: #B46FB2;
+}
+
+#searchBtn{
+    color: #fff;
+    background-color: #B46FB2;
+    padding: 15px 25px 15px 25px;
+    margin: 20px;
+    border-style: none;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+p{
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
+}
+
+/* For screens smaller than 576px (most mobiles) */
+@media (max-width: 576px) {
+    .center-image {
+        max-width: 50%; /* Expand to full width on smaller screens */
+    }
+    .cursive-text {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+}
+
+/* For screens between 577px and 1200px (laptop sizes) */
+@media (min-width: 577px) and (max-width: 1200px) {
+    .center-image {
+        max-width: 40%; /* Adjust to a suitable width for laptops (not exceeding 75%) */
+    }
+    .cursive-text {
+        font-size: 3rem; /* Adjust font size for laptops */
+    }
+}
+
+/* For screens larger than 1200px (desktop screens) */
+@media (min-width: 1201px) {
+    .center-image {
+        max-width: 35%; /* Keep it consistent with laptop size */
+    }
+    .cursive-text {
+        font-size: 4.5rem; /* Adjust font size for larger screens */
+    }
+}
+/* ... Remaining CSS rules ... */
