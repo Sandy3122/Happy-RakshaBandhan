@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const greetingText = document.getElementById("greetingText");
       greetingText.style.color = '#fff';
       greetingText.style.fontFamily = "'Dancing Script', cursive"; // Wrap font name in quotes
-      greetingText.style.fontSize = '2.2rem';
+      greetingText.style.fontSize = '2rem';
       greetingText.textContent = greetingMessage;
 
       // Preload images
