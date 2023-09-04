@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
       'sailu': 'pankajam.jpg',
       'sailaja': 'pankajam.jpg',
       'mony': 'mounika.jpg',
-      'pogaru': 'mounika.jpg',
       'mouny': 'mounika.jpg',
       'mounika': 'mounika.jpg',
       'mounika devi': 'mounika.jpg',
@@ -105,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const greetingText = document.getElementById("greetingText");
       greetingText.style.color = '#fff';
       greetingText.style.fontFamily = "'Dancing Script', cursive"; // Wrap font name in quotes
-      greetingText.style.fontSize = '2rem';
+      greetingText.style.fontSize = '2.2rem';
       greetingText.textContent = greetingMessage;
 
       // Preload images
@@ -204,16 +203,16 @@ function getGreetingMessage(name) {
     case 'Mounika Devi':
     case 'satya':
     case 'Satya':
-    case 'Pogaru':
-    case 'pogaru':
     case 'rayudu mounika':
     case 'Rayudu Mounika':
-      return "May this Raksha Bandhan bring us closer together and strengthen our bond of friendship 🥰. 'Pogaruuu'";
+      return "May this Raksha Bandhan bring us closer together and strengthen our bond of friendship. 'Pogaruuu'";
     // Nissi
     case 'nissi':
     case 'Nissi':
     case 'haveela':
     case 'Haveela':
+    case 'pogaru':
+    case 'Pogaru':
     case 'geera':
     case 'Geera':
       return "A sister's love is a forever gift. Happy Raksha Bandhan to the most 'Pogaru' bothu sister 🥰! Happy Raksha Bandhan Nissi";
@@ -254,7 +253,7 @@ function getGreetingMessage(name) {
     case 'Saillu':    
     case 'sailaja':    
     case 'Sailaja':
-      return "Arey Saillu, Wishing your life filled with love, laughter, and cherished moments. May our bond remain as colorful and vibrant as the rakhi itself. Happy Raksha Bandhan Pankajam 😜🥰"    
+      return "Arey Saillu, Wishing your life filled with love, laughter, and cherished moments. May our bond remain as colorful and vibrant as the rakhi itself. Happy Raksha Bandhan Pankajam 😜🥰"    
     // Sweety
     case 'Sweety':
     case 'SWEETY':

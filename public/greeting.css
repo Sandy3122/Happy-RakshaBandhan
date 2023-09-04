@@ -1,6 +1,3 @@
-/*
-Google Fonts
-*/
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Caveat&family=Dancing+Script&display=swap');
 
@@ -89,4 +86,3 @@ p{
         font-size: 4.5rem; /* Adjust font size for larger screens */
     }
 }
-/* ... Remaining CSS rules ... */
