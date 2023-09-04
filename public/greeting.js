@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       'sailu': 'pankajam.jpg',
       'sailaja': 'pankajam.jpg',
       'mony': 'mounika.jpg',
+      'pogaru': 'mounika.jpg',
       'mouny': 'mounika.jpg',
       'mounika': 'mounika.jpg',
       'mounika devi': 'mounika.jpg',
@@ -203,16 +204,16 @@ function getGreetingMessage(name) {
     case 'Mounika Devi':
     case 'satya':
     case 'Satya':
+    case 'Pogaru':
+    case 'pogaru':
     case 'rayudu mounika':
     case 'Rayudu Mounika':
-      return "May this Raksha Bandhan bring us closer together and strengthen our bond of friendship. 'Pogaruuu'";
+      return "May this Raksha Bandhan bring us closer together and strengthen our bond of friendship 🥰. 'Pogaruuu'";
     // Nissi
     case 'nissi':
     case 'Nissi':
     case 'haveela':
     case 'Haveela':
-    case 'pogaru':
-    case 'Pogaru':
     case 'geera':
     case 'Geera':
       return "A sister's love is a forever gift. Happy Raksha Bandhan to the most 'Pogaru' bothu sister 🥰! Happy Raksha Bandhan Nissi";
