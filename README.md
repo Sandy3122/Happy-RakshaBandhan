@@ -12,7 +12,7 @@ This is a web application that generates personalized Raksha Bandhan greetings b
 
 ## Demo
 
-[Live Demo](#) *(Insert link to live demo if available)*
+[Live Demo](https://happy-raksha-bandhan-three.vercel.app/)
 
 ## Features
 
@@ -22,7 +22,7 @@ This is a web application that generates personalized Raksha Bandhan greetings b
 
 ## Getting Started
 
-1. Clone the repository:
+# Clone the repository:
 
    ```bash
    git clone https://github.com/Sandy3122/Happy-RakshaBandhan
