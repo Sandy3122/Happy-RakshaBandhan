@@ -37,7 +37,7 @@ This is a web application that generates personalized Raksha Bandhan greetings b
 
 2. Open a terminal and navigate to the project directory:
 
-   ```sh
+   ```bash
    cd path/to/Happy-RakshaBandhan
    ```
 
