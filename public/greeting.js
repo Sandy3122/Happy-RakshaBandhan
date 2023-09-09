@@ -55,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
       'sailaja': 'pankajam.jpg',
       'mony': 'mounika.jpg',
       'mouny': 'mounika.jpg',
+      'devi': 'mounika.jpg',
+      'mounika devi': 'mounika.jpg',
       'pogaru': 'mounika.jpg',
       'mounika': 'mounika.jpg',
       'mounika devi': 'mounika.jpg',
@@ -64,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
       'sweetu': 'sweety.jpg',
       'sweettu': 'sweety.jpg',
       'hema': 'sweety.jpg',
-      'hema pravalika': 'sweety.jpg',
+      'hema pravalika0': 'sweety.jpg',
       'hema pravallika': 'sweety.jpg',
       'pravalika': 'sweety.jpg',
       'pravallika': 'sweety.jpg',
@@ -202,6 +204,8 @@ function getGreetingMessage(name) {
     case 'mounika devi':
     case 'Mounika Devi':
     case 'satya':
+    case 'devi':
+    case 'Devi':
     case 'Satya':
     case 'rayudu mounika':
     case 'Rayudu Mounika':
