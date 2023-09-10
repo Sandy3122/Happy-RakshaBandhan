@@ -34,6 +34,13 @@ h1 {
   color: #007bff;
 }
 
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
 /* For the animated text */
 .animated-text {
   animation: fadeInUp 1.5s ease-in-out;
