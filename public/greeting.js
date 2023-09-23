@@ -157,6 +157,8 @@ function getGreetingMessage(name) {
     case 'Chelli':
     case 'geethu':
     case 'Geethu':
+    case 'geethika':
+    case 'Geethika':
     case 'madhuri':
     case 'Madhuri':
     case 'geethika lakshmi sai madhuri':
