@@ -9,10 +9,7 @@ body {
 }
 
 .mainBG{
-  /* background:#fff url(./bg.jpg) repeat 0px top ; */
-  background-color: #FEB801;
   background-image: url('/bg.jpg');
-  /* background-image: url('/bg1.webp'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
