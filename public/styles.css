@@ -72,10 +72,12 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   font-style: italic;
+  background:rgb(248, 249, 250, 0.5);
 
   }
 
 #nameSearch::placeholder{
+  color: #fb09f3;
   font-style: italic;
   font-size: 20px;
 }
