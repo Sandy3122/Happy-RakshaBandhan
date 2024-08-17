@@ -33,7 +33,7 @@
     font-size: 4rem;
     margin-top: 20px; /* Adjust margin as needed */
     margin-bottom: 20px;
-    color: #B46FB2;
+    color: #d58de3;
 }
 
 #searchBtn{
@@ -75,7 +75,7 @@ p{
 /* For screens between 577px and 1200px (laptop sizes) */
 @media (min-width: 577px) and (max-width: 1200px) {
     .center-image {
-        max-width: 40%; /* Adjust to a suitable width for laptops (not exceeding 75%) */
+        max-width: 30%; /* Adjust to a suitable width for laptops (not exceeding 75%) */
     }
     .cursive-text {
         font-size: 3rem; /* Adjust font size for laptops */
@@ -85,7 +85,7 @@ p{
 /* For screens larger than 1200px (desktop screens) */
 @media (min-width: 1201px) {
     .center-image {
-        max-width: 35%; /* Keep it consistent with laptop size */
+        max-width: 20%; /* Keep it consistent with laptop size */
     }
     .cursive-text {
         font-size: 4.5rem; /* Adjust font size for larger screens */

@@ -86,40 +86,77 @@ document.addEventListener("DOMContentLoaded", function () {
       'neha': 'neha.jpg',
       'keerthna': 'neha.jpg',
       'keerthana': 'neha.jpg',
+      'swetha': 'swetha.png',
+      'Swetha': 'swetha.png',
+      'Swetha A': 'swetha.png',
+      'A Swetha': 'swetha.png',
+      'A swetha': 'swetha.png',
+      'swetha a': 'swetha.png',
+      'Neelima': 'neelima.png',
+      'neelima': 'neelima.png',
+      'Neelu': 'neelima.png',
+      'neelu': 'neelima.png',
+      'Neelima Chandu': 'neelima.png',
+      'Chandu Neelima': 'neelima.png',
+      'Neelima Chandrashekar': 'neelima.png'
 
     };
 
-    const greetingMessage = getGreetingMessage(selectedName.toLowerCase());
+// Function to capitalize the first letter of the selected name
+function capitalize(name) {
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
 
-    if (imageMap[selectedName.toLowerCase()]) {
-      const imageName = imageMap[selectedName.toLowerCase()];
+// List of names that should include "Akka"
+const akkaNames = ['neelima', 'neelu', 'neelima chandu', 'chandu neelima', 'neelima chandrashekar'];
 
-      const customHeading = document.getElementById("customHeading");
-      customHeading.textContent = `Happy Raksha Bandhan, ${selectedName}!`;
+// Function to get a random image for Neelima
+function getRandomNeelimaImage() {
+  const images = ['neelima.png', 'neelima1.png'];
+  return images[Math.floor(Math.random() * images.length)];
+}
 
-      const centerImage = document.getElementById("centerImage");
-      centerImage.src = imageName;
+const greetingMessage = getGreetingMessage(selectedName.toLowerCase());
 
-      const customText = document.getElementById("customText");
-      customText.classList.add("animated-text");
+if (imageMap[selectedName.toLowerCase()]) {
+  // Check if selected name is 'Neelima' or any of its variants
+  const isNeelima = akkaNames.includes(selectedName.toLowerCase());
+  const imageName = isNeelima ? getRandomNeelimaImage() : imageMap[selectedName.toLowerCase()];
 
-      const greetingText = document.getElementById("greetingText");
-      greetingText.style.color = '#fff';
-      greetingText.style.fontFamily = "'Dancing Script', cursive"; // Wrap font name in quotes
-      greetingText.style.fontSize = '2.2rem';
-      greetingText.textContent = greetingMessage;
+  const isAkka = isNeelima;
 
-      // Preload images
-      preloadImages([imageName]);
+  const capitalizedSelectedName = capitalize(selectedName);
+  const nameToDisplay = isAkka ? `${capitalizedSelectedName} Akka` : capitalizedSelectedName;
 
-      // Set background image
-      const backgroundImageUrl = imageName;
-      document.body.style.backgroundImage = `url(${backgroundImageUrl})`;
-      document.body.style.backgroundRepeat = 'no-repeat';
-      document.body.style.backgroundSize = 'cover';
-    } else {
-      alert("Name not found or image not available.");
-    }
+  const customHeading = document.getElementById("customHeading");
+  customHeading.textContent = `Happy Raksha Bandhan, ${nameToDisplay}!`;
+
+  const centerImage = document.getElementById("centerImage");
+  centerImage.src = imageName;
+
+  const customText = document.getElementById("customText");
+  customText.classList.add("animated-text");
+
+  const greetingText = document.getElementById("greetingText");
+  greetingText.style.color = '#fff';
+  greetingText.style.fontFamily = "'Dancing Script', cursive"; // Wrap font name in quotes
+  greetingText.style.fontSize = '2.2rem';
+  greetingText.textContent = greetingMessage;
+
+  // Preload images
+  preloadImages([imageName]);
+
+  // Set background image
+  const backgroundImageUrl = imageName;
+  document.body.style.backgroundImage = `url(${backgroundImageUrl})`;
+  document.body.style.backgroundRepeat = 'no-repeat';
+  document.body.style.backgroundSize = 'cover';
+  document.body.style.backgroundPosition = 'center center';
+
+} else {
+  alert("Name not found! Happy Raksha Bandhan.");
+}
+
   }
 });
 
@@ -306,6 +343,22 @@ function getGreetingMessage(name) {
     case 'geetha sai tejaswini':
     case 'Geetha Sai Tejaswini':
       return "Having a sister like you is like having a candy that's both sweet and sour. Cheers to our unique bond on this Rakhi. Happy Raksha Bandhan Geetha!";
+      case 'swetha':
+    case 'Swetha':
+    case 'Swetha A':
+    case 'A Swetha':
+    case 'swetha a':
+    case 'A swetha':
+      case 'neelima':
+    case 'Neelima':
+    case 'Neelu':
+    case 'neelu':
+    case 'neelima':
+    case 'Neelima Chandu':
+    case 'Chandu Neelima':
+    case 'Neelima Chandrashekar':
+
+      return "Happy Raksha Bandhan to a sister-like team member! Thanks for being there all the time Swetha. Keep Similing 😁🥰";
     // Add more cases for other names
     default:
       return "Wishing you a wonderful Raksha Bandhan!";
