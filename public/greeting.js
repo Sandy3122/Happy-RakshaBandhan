@@ -112,7 +112,7 @@ const akkaNames = ['neelima', 'neelu', 'neelima chandu', 'chandu neelima', 'neel
 
 // Function to get a random image for Neelima
 function getRandomNeelimaImage() {
-  const images = ['neelima.png', 'neelima1.png'];
+  const images = ['neelima.png', 'neelima1.png', 'neelima2.png'];
   return images[Math.floor(Math.random() * images.length)];
 }
 
@@ -358,7 +358,7 @@ function getGreetingMessage(name) {
     case 'Chandu Neelima':
     case 'Neelima Chandrashekar':
 
-      return "Happy Raksha Bandhan to a sister-like team member! Thanks for being there all the time Swetha. Keep Similing 😁🥰";
+      return "Akka this Raksha Bandhan wrap us in love and joy. Your smile makes everything brighter and our connection even stronger. 🤞🥰❤️";
     // Add more cases for other names
     default:
       return "Wishing you a wonderful Raksha Bandhan!";
