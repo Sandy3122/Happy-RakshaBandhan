@@ -122,7 +122,7 @@ const akkaNames = ['neelima', 'neelu', 'neelima chandu', 'chandu neelima', 'neel
 
 // Function to get a random image for Neelima
 function getRandomNeelimaImage() {
-  const images = ['neelima.png', 'neelima1.png', 'neelima2.png', 'smarty.png', 'smarty1.png'];
+  const images = ['neelima.png', 'neelima1.png', 'neelima2.png'];
   return images[Math.floor(Math.random() * images.length)];
 }
 
