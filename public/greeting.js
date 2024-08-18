@@ -98,7 +98,17 @@ document.addEventListener("DOMContentLoaded", function () {
       'neelu': 'neelima.png',
       'Neelima Chandu': 'neelima.png',
       'Chandu Neelima': 'neelima.png',
-      'Neelima Chandrashekar': 'neelima.png'
+      'Neelima Chandrashekar': 'neelima.png',
+      'smart': 'smarty.png',
+      'Satya Priya Manga Bhargavi': 'smarty.png',
+      'Smarty': 'smarty.png',
+      'smarty': 'smarty.png',
+      'satya priya manga bhargavi': 'smarty.png',
+      'Manga': 'smarty.png',
+      'manga': 'smarty.png',
+      'Bhargavi': 'smarty.png',
+      'bhargavi': 'smarty.png',
+      'satya priya': 'smarty.png',
 
     };
 
@@ -112,7 +122,7 @@ const akkaNames = ['neelima', 'neelu', 'neelima chandu', 'chandu neelima', 'neel
 
 // Function to get a random image for Neelima
 function getRandomNeelimaImage() {
-  const images = ['neelima.png', 'neelima1.png', 'neelima2.png'];
+  const images = ['neelima.png', 'neelima1.png', 'neelima2.png', 'smarty.png', 'smarty1.png'];
   return images[Math.floor(Math.random() * images.length)];
 }
 
@@ -357,6 +367,16 @@ function getGreetingMessage(name) {
     case 'Neelima Chandu':
     case 'Chandu Neelima':
     case 'Neelima Chandrashekar':
+      case 'smarty':
+    case 'Satya Priya Manga Bhargavi':
+    case 'Smarty':
+    case 'smarty':
+    case 'satya priya manga bhargavi':
+    case 'Manga':
+    case 'manga':
+    case 'Bhargavi':
+    case 'bhargavi':
+    case 'satya priya':
 
       return "Akka this Raksha Bandhan wrap us in love and joy. Your smile makes everything brighter and our connection even stronger. 🤞🥰❤️";
     // Add more cases for other names
